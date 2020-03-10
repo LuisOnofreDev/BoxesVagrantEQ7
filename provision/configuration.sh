@@ -1,8 +1,10 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# box_configuration.sh
 
-apt-get update
-apt-get install -y apache2
-if ! [ -L /var/www ]; then
-  rm -rf /var/www
-  ln -fs /vagrant /var/www
-fi
+  sudo apt-get install software-properties-common
+  sudo add-apt-repository ppa:ondrej/php
+  sudo add-apt-repository ppa:ondrej/apache2
+  sudo apt-get update
+  sudo apt-get upgrade
+  sudo apt-get install -y php7.3
+  sudo systemctl restart apache2

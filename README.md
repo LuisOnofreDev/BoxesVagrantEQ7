@@ -13,6 +13,6 @@ Archivos de configuración para construir automaticamente una maquina virtual co
     Virtualbox y el paquete de extensión.
 
 # Software incluido
-    ubuntu/trusty64
+    ubuntu/bionic64
     PHP php7.3
 

@@ -1,5 +1,5 @@
 # BoxesVagrantEQ7
-Entorno de desarollo para el backend y frontebd de nuestro proyecto de DESER en Vagrant
+Entorno de desarollo para el backend de nuestro proyecto de DESER en Vagrant
 Archivos de configuración para construir automaticamente una maquina virtual con PHP.
 
 # Forma de uso
